@@ -57,7 +57,7 @@
       "function": {
         "randomFunction": {
           "deploymentBucketName": "amplify-gen1stalefunction-dev-6b50c-deployment",
-          "s3Key": "amplify-builds/randomFunction-6830336a4c5841776971-build.zip"
+          "s3Key": "amplify-builds/randomFunction-72633058752f4a674731-build.zip"
         }
       }
     }
