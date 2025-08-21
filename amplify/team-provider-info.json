@@ -19,5 +19,47 @@
         }
       }
     }
+  },
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gen1stalefunction-staging-8a730-authRole",
+      "UnauthRoleArn": "arn:aws:iam::493321908002:role/amplify-gen1stalefunction-staging-8a730-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::493321908002:role/amplify-gen1stalefunction-staging-8a730-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-gen1stalefunction-staging-8a730-deployment",
+      "UnauthRoleName": "amplify-gen1stalefunction-staging-8a730-unauthRole",
+      "StackName": "amplify-gen1stalefunction-staging-8a730",
+      "StackId": "arn:aws:cloudformation:us-west-2:493321908002:stack/amplify-gen1stalefunction-staging-8a730/a0245a80-7edb-11f0-9d7a-061fb88c06d9",
+      "AmplifyAppId": "d1q4w7j896dyx3"
+    },
+    "categories": {
+      "function": {
+        "randomFunction": {
+          "deploymentBucketName": "amplify-gen1stalefunction-staging-8a730-deployment",
+          "s3Key": "amplify-builds/randomFunction-6830336a4c5841776971-build.zip"
+        }
+      }
+    }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gen1stalefunction-dev-6b50c-authRole",
+      "UnauthRoleArn": "arn:aws:iam::493321908002:role/amplify-gen1stalefunction-dev-6b50c-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::493321908002:role/amplify-gen1stalefunction-dev-6b50c-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-gen1stalefunction-dev-6b50c-deployment",
+      "UnauthRoleName": "amplify-gen1stalefunction-dev-6b50c-unauthRole",
+      "StackName": "amplify-gen1stalefunction-dev-6b50c",
+      "StackId": "arn:aws:cloudformation:us-west-2:493321908002:stack/amplify-gen1stalefunction-dev-6b50c/5e3aebb0-7edc-11f0-a047-024cc6992481",
+      "AmplifyAppId": "d1q4w7j896dyx3"
+    },
+    "categories": {
+      "function": {
+        "randomFunction": {
+          "deploymentBucketName": "amplify-gen1stalefunction-dev-6b50c-deployment",
+          "s3Key": "amplify-builds/randomFunction-6830336a4c5841776971-build.zip"
+        }
+      }
+    }
   }
 }
