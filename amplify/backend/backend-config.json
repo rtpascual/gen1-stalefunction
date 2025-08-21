@@ -1,0 +1,27 @@
+{
+  "function": {
+    "randomFunction": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_randomFunction_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "randomFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_randomFunction_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "randomFunction"
+        }
+      ]
+    }
+  }
+}
